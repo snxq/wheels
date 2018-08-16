@@ -43,6 +43,6 @@ if __name__ == "__main__":
         src_path = sys.argv[1]
         save_path = sys.argv[2]
     except:
-        src_path = r'U:\100D3400'
-        save_path = r'U:\Archiving'
+        src_path = '~/100D3400'
+        save_path = '~/Archiving'
     archive(src_path, save_path)
